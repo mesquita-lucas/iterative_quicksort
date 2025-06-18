@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "inc/quicksort.h"
-#include "inc/stack.h"
+#include "quicksort.h"
+#include "stack.h"
 
 void swap(int* a, int* b){
     int temp = *a;

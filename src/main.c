@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "inc/quicksort.h"
+#include "quicksort.h"
+#include <locale.h>
 
 #define MAX_INPUT 1024
 
@@ -12,6 +13,8 @@ ser processadas primeiro, e a profundidade total da pilha vai ser menor, evitand
 possamos usar uma stack menor.*/
 
 int main() {
+    setlocale(LC_ALL, "portuguese");
+
     char input[MAX_INPUT];
     int* arr = (int*)malloc(MAX_INPUT * sizeof(int));
     int n = 0;

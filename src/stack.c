@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "inc/stack.h"
+#include "stack.h"
 
 t_stack* create_stack(int max){
     t_stack* stack = (t_stack*)malloc(sizeof(t_stack));
